@@ -19,15 +19,18 @@ Platzhalter (<...>) mit echtem Wert ersetzen
 	- Variablen können dann in SoSciSurvey ausgelesen und gespeichert werden
 	
 
+4. Cookiebanner Fenster (blau, oben rechts) implementieren
 
-4. Variablen die gespeichert werden (in localStorage):
-	4.1. Einwilligungsassistent
+5. Text anpassen an Vorlage
+
+6. Variablen die gespeichert werden (in localStorage):
+	6.1. Einwilligungsassistent
 		- "ea-user-preferences": Anpassung der Website (z.B. Sprache) toggle button value
 		- "ea-statistics-improvement": Statistiken zur Verbesserung der Website toggle button value
 		- "ea-personalization-website": Personalisierung der Website toggle button value
 		- "ea-personalization-advertisement": Personalisierung von Online-Werbung toggle button value
 		
-	4.2. Cookie Banner
+	6.2. Cookie Banner
 		- "timePassedcb": Zeit auf Website (insgesamt)
 
 	
