@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="de">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet"-->
+
+    <title>Title</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="vendor/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    
+    <link rel="stylesheet" href="assets/css/assistant.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@500&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body style="scroll-behavior: smooth;">
+    <noscript>
+      <div id="js-disabled" class="js-disabled">
+        <p>Hinweis:</p> 
+        <p>Für die optimale Funktionsweise des Onlineshops ist es wichtig, dass Sie JavaScript in Ihrem Browser aktiviert haben. Anleitungen, wie Sie JavaScript in Ihrem Browser aktivieren finden Sie <a href="https://www.enable-javascript.com/de/" target="_blank">hier</a></p>
+        <p>Bitte schalten sie ihre Cookie-Blocker ab, falls sie diese in ihrem Browser installiert haben</p>
+        <p>Laden Sie anschließend die Seite vollständig neu. Die Tastenkürzel finden Sie hier:</p>
+        <p>Firefox/Chrome/Opera/Edge => Windows: Strg + F5; Mac: Command + Shift + R</p>
+        <p>Safari => Mac: Command + Option + R</p>
+      </div>
+    </noscript>
+
+    <div id="js-enabled" class="js-enabled">
+      
+        <div id="include-plugin"></div>
+
+        <div id="reminder-text">
+          Fertig mit den Einstellungen? Klicke hier um weiter zur Website geleitet zu werden
+        </div>
+        <button id="go-to-website-button" onclick="window.location.href = '/index.html';">Weiter zur Website</button>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Additional Scripts -->
+    <script type="application/javascript" src="assets/js/custom.js"></script>
+    <script type="application/javascript" src="assets/js/owl.js"></script>
+    <script type="application/javascript" src="assets/js/slick.js"></script>
+    <script type="application/javascript" src="assets/js/isotope.js"></script>
+    <script type="application/javascript" src="assets/js/accordions.js"></script>
+    <script type="application/javascript" src="assets/js/assistant.js"></script> 
+    <script type="application/javascript" src="assets/js/record_ea.js"></script>
+    <script type="application/javascript" src="assets/js/enums.js"></script>
+    <script type="application/javascript" src="assets/js/api.js"></script> 
+    <script type="application/javascript" src="assets/js/globaltimer.js"></script>
+
+
+    <script type="text/javascript"> 
+      $(document).ready(function() {
+        $("#js-enabled").css("visibility", "visible");
+        window.GlobalTimer = new GlobalTimer("ea", 10);
+
+        let assistant = new Assistant();
+        // ToDo: get param for cookie from soscisurvey link
+        // Init cookie with type on index.html only
+        assistant.init("a");
+
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+
+        localStorage.setItem("ct", urlParams.get('ct'));
+        localStorage.setItem("project", urlParams.get('proj'));
+
+        // register listener
+        // send data back to soscisurvery if time is up
+        window.GlobalTimer.globalTimerListener.registerListener(function(val) {
+          $("#reminder-text").css("visibility", "visible");
+        });
+        
+      });
+        
+
+      // backdrop for previous opened  modals
+      $(document).on('show.bs.modal', '.modal', function() {
+        const zIndex = 100000 + 10 * $('.modal:visible').length;
+        $(this).css('z-index', zIndex);
+        setTimeout(() => $('.modal-backdrop').not('.modal-stack').css('z-index', zIndex - 1).addClass('modal-stack'));
+      });
+    </script>
+
+  </body>
+
+</html>

@@ -1,0 +1,38 @@
+{
+    "purpose": {
+        "title": "Datenverarbeitungszwecke",
+        "text": "Deine Daten werden für die hier genannten Zwecke gesammelt und verarbeitet"
+    },
+    "tracking": {
+        "title": "Trackingtechnologien",
+        "text": "Folgende Trackingtechnologien werden für die Datenerfassung und -verarbeitung eingesetzt. Typische Technologien sind Cookies und Pixel, die in deinem Browser plaziert werden."
+    },
+    "data": {
+        "title": "Daten",
+        "text": "Folgende (personenbezogene) Daten werden durch die Nutzung dieses Dienstes erhoben."
+    },
+    "legal basis": {
+        "title": "Rechtsgrundlage",
+        "text": "Im Folgenden sind die erforderlichen Rechtsgrundlagen für die Verarbeitung von Daten aufgeführt."
+    },
+    "processing location": {
+        "title": "Ort der Verarbeitung",
+        "text": "Dies ist der primäre Ort, an dem die erhobenen Daten verarbeitet werden. Wenn die Daten auch in anderen Ländern verarbeitet werden, werden Sie darüber gesondert informiert."
+    },
+    "duration": {
+        "title": "Dauer der Speicherung der Daten",
+        "text": "Die Aufbewahrungsfrist ist die Zeitspanne, in der die erhobenen Daten für die Verarbeitungszwecke gespeichert werden. Die Daten müssen gelöscht werden, sobald sie für die genannten Verarbeitungszwecke nicht mehr benötigt werden."
+    },
+    "third countries": {
+        "title": "Weitergabe an Drittländer",
+        "text": "Dieser Dienst kann die gesammelten Daten in ein anderes Land weiterleiten. Bitte beachten Sie, dass dieser Dienst die Daten möglicherweise außerhalb der EU/des EWR und in ein Land ohne die erforderlichen Datenschutzstandards übermittelt. Wenn die Daten in die USA übermittelt werden, besteht das Risiko, dass Ihre Daten von US-Behörden zu Kontroll- und Überwachungszwecken verarbeitet werden, möglicherweise ohne Rechtsmittel. Nachstehend finden Sie eine Liste der Länder, in die die Daten übermittelt werden. Dies kann aus verschiedenen Gründen wie Speicherung oder Verarbeitung erfolgen."
+    },
+    "recipient": {
+        "title": "Daten-Empfänger",
+        "text": "Im Folgenden sind die Empfänger der erhobenen Daten aufgeführt."
+    },
+    "saving information": {
+        "title": "Information zur Speicherung",
+        "text": "Nachstehend sehen Sie die längste mögliche Dauer der Speicherung auf einem Gerät, wie sie bei Verwendung der Cookie-Methode festgelegt ist, und ob andere Methoden verwendet werden."
+    }
+}

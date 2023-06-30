@@ -1,0 +1,409 @@
+{
+    "a": {
+        "title": "Privatsphäre-Einstellung",
+        "text": "",
+        "layer_1": [],
+        "purpose": [
+            { 
+                "id": "user-preferences",
+                "toggle": true,
+                "title": "Anpassung der Website (z.B. Sprache)",
+                "text": "Um die Website auch für zukünftige Besuche an die Größe deines Bildschirms, deine bevorzugte Sprache u.ä. anpassen zu können, speichert sie ein Cookie in deinem Browser für die Dauer von 2 Jahren. Hierfür speichert die Website Cookies folgender Eigentümer in deinem Browser:",
+                "risks": "Risiken: Eingriff in die Privatsphäre (leicht)",
+                "data": "Daten: Preformance-Cookie, Nutzungsverhalten, u.ä.",
+                "duration": "Dauer: 2 Jahre",
+                "profiling": "Profiling: Profilbildung über deine (mutmaßlichen) Interessen aufgrund deines Nutzungsverhaltens auf dieser Website",
+                "recipient": "Cookie-Eigentümer/Datenempfänger: Website-Betreiber, und siehe unten bei Tracker (z.B. Cookies) <br/><br/>",
+                "legal basis": "Rechtsgrundlage: Einwilligung gem. Art. 6 Abs. 1 lit. a DSGVO",
+                "objection rights": "Widerrufsrecht: Ja, gem. Art. 7 Abs. 3 DSGVO",
+                "consequences": "Konsequenzen: Die Nichtabgabe bzw. der Widerruf der Einwilligung hat keinerlei negative Konsequenzen. Weder Risiken noch Potenziale treten auf.",
+                "subject rights": "Betroffenenrechte: Berichtigung und Löschung (insb.)",
+                "transfer": "Transfer außerhalb EU: Ja (USA)<br/><br/>",
+                "contact": "Name und Kontaktdaten des Website-Betreibers: Prof. Dr. Ma von Grafenstein, Bundesallee 1-12 10719 Berlin, m.von-grafenstein@udk-berlin.de<br/><br/>Sie können jederZeit bei der zuständigen Datenschutzbehörde eine Beschwerde gegen diese Datenverarbeitung einlegen.",
+                "image-expand": "purpose-user-preferences-expanded.svg",
+                "services": [
+                    {
+                        "id": "ga-hash",
+                        "name": "_ga_#"
+                    },
+                    {
+                        "id": "c-gif",
+                        "name": "c.gif"
+                    },
+                    {
+                        "id": "clid",
+                        "name": "CLID"
+                    },
+                    {
+                        "id": "cltk",
+                        "name": "_cltk"
+                    },
+                    {
+                        "id": "zd-buid",
+                        "name": "ZD-buid [x2]"
+                    },
+                    {
+                        "id": "gidx4",
+                        "name": "_gid [x4]"
+                    },
+                    {
+                        "id": "clsk",
+                        "name": "_clsk"
+                    },
+                    {
+                        "id": "gidx2",
+                        "name": "_gid [x2]"
+                    }
+                ],
+                "pro": [
+                    {
+                        "id": "pro-user-experience",
+                        "text": "Bessere Nutzungserfahrung",
+                        "icon": "pro-nutzungserfahrung.svg",
+                        "dots_num": 2,
+                        "additional_info": false,
+                        "text_expanded": "Hier steht der erweiterte Text!"
+                    },
+                    {
+                        "id": "pro-time-saving",
+                        "text": "Zeitersparnis",
+                        "icon": "pro-zeitersparnis.svg",
+                        "dots_num": 3,
+                        "additional_info": false,
+                        "text_expanded": "Hier steht der erweiterte Text!"
+                    }
+                ],
+                "contra": [
+                    {
+                        "id": "contra-privacy",
+                        "text": "Einblick in mein Privatleben",
+                        "icon": "contra-privatleben.svg",
+                        "dots_num": 1,
+                        "additional_info": false,
+                        "text_expanded": "Hier steht der erweiterte Text!"
+                    }
+                ]
+            },
+            { 
+                "id": "statistics-improvement",
+                "toggle": true,
+                "title": "Statistiken zur Verbesserung der Website",
+                "text": "Um die Website auch für zukünftige Besuche an die Größe deines Bildschirms, deine bevorzugte Sprache u.ä. anpassen zu können, speichert sie ein Cookie in deinem Browser für die Dauer von 2 Jahren. Hierfür speichert die Website Cookies folgender Eigentümer in deinem Browser:",
+                "risks": "Risiken: Eingriff in die Privatsphäre (leicht)",
+                "data": "Daten: Preformance-Cookie, Nutzungsverhalten, u.ä.",
+                "duration": "Dauer: 2 Jahre",
+                "profiling": "Profiling: Profilbildung über deine (mutmaßlichen) Interessen aufgrund deines Nutzungsverhaltens auf dieser Website",
+                "recipient": "Cookie-Eigentümer/Datenempfänger: Website-Betreiber, und siehe unten bei Tracker (z.B. Cookies)<br/><br/>",
+                "legal basis": "Rechtsgrundlage: Einwilligung gem. Art. 6 Abs. 1 lit. a DSGVO",
+                "objection rights": "Widerrufsrecht: Ja, gem. Art. 7 Abs. 3 DSGVO",
+                "consequences": "Konsequenzen: Die Nichtabgabe bzw. der Widerruf der Einwilligung hat keinerlei negative Konsequenzen. Weder Risiken noch Potenziale treten auf.",
+                "subject rights": "Betroffenenrechte: Berichtigung und Löschung (insb.)",
+                "transfer": "Transfer außerhalb EU: Ja (USA)<br/><br/>",
+                "contact": "Name und Kontaktdaten des Website-Betreibers: Prof. Dr. Ma von Grafenstein, Bundesallee 1-12 10719 Berlin, m.von-grafenstein@udk-berlin.de<br/><br/>Sie können jederZeit bei der zuständigen Datenschutzbehörde eine Beschwerde gegen diese Datenverarbeitung einlegen.",
+                "image-expand": "purpose-statistics-improvement-exanded.svg",
+                "services": [
+                    {
+                        "id": "ga-hash",
+                        "name": "_ga_#"
+                    },
+                    {
+                        "id": "c-gif",
+                        "name": "c.gif"
+                    },
+                    {
+                        "id": "clid",
+                        "name": "CLID"
+                    },
+                    {
+                        "id": "cltk",
+                        "name": "_cltk"
+                    },
+                    {
+                        "id": "zd-buid",
+                        "name": "ZD-buid [x2]"
+                    },
+                    {
+                        "id": "gidx4",
+                        "name": "_gid [x4]"
+                    },
+                    {
+                        "id": "clsk",
+                        "name": "_clsk"
+                    },
+                    {
+                        "id": "gidx2",
+                        "name": "_gid [x2]"
+                    }
+                ],
+                "pro": [
+                    {
+                        "id": "pro-improvement-website",
+                        "text": "Zukünftige Verbesserung der Website",
+                        "icon": "pro-verbesserung-website.svg",
+                        "dots_num": 3,
+                        "additional_info": false,
+                        "text_expanded": "Hier steht der erweiterte Text!"
+                    },
+                    {
+                        "id": "pro-user-experience",
+                        "text": "Bessere Nutzungserfahrung",
+                        "icon": "pro-nutzungserfahrung.svg",
+                        "dots_num": 0,
+                        "additional_info": true,
+                        "text_expanded": "Hier steht der erweiterte Text!"
+                    },
+                    {
+                        "id": "pro-time-saving",
+                        "text": "Zeitersparnis",
+                        "icon": "pro-nutzungserfahrung.svg",
+                        "dots_num": 0,
+                        "additional_info": true,
+                        "text_expanded": "Hier steht der erweiterte Text!"
+                    }
+                ],
+                "contra": [
+                    {
+                        "id": "contra-privacy",
+                        "text": "Einblick in mein Privatleben",
+                        "icon": "contra-privatleben.svg",
+                        "dots_num": 2,
+                        "additional_info": false,
+                        "text_expanded": "Hier steht der erweiterte Text!"
+                    },
+                    {
+                        "id": "contra-decisions",
+                        "text": "Beeinflussung meiner Entscheidungen",
+                        "icon": "contra-privatleben.svg",
+                        "dots_num": 0,
+                        "additional_info": true,
+                        "text_expanded": "Hier steht der erweiterte Text!"
+                    },
+                    {
+                        "id": "contra-unequal",
+                        "text": "Ungleichbehandlung",
+                        "icon": "contra-privatleben.svg",
+                        "dots_num": 0,
+                        "additional_info": true,
+                        "text_expanded": "Hier steht der erweiterte Text!"
+                    }
+                ]
+            },
+            { 
+                "id": "personalization-website",
+                "toggle": true,
+                "title": "Personalisierung der Website",
+                "text": "Um die Website auch für zukünftige Besuche an die Größe deines Bildschirms, deine bevorzugte Sprache u.ä. anpassen zu können, speichert sie ein Cookie in deinem Browser für die Dauer von 2 Jahren. Hierfür speichert die Website Cookies folgender Eigentümer in deinem Browser:", 
+                "risks": "Risiken: Eingriff in die Privatsphäre (leicht-mittel), Ungleichbehandlung (leicht)",
+                "data": "Daten: Preference-Cookie, Bildschirmgröße, Sprache u.ä.",
+                "duration": "Dauer: 2 Jahre",
+                "profiling": "Profiling: Profilbildung über deine (mutmaßlichen) Interessen aufgrund deines Nutzungsverhaltens auf dieser Website",
+                "recipient": "Cookie-Eigentümer/Datenempfänger: Website-Betreiber, und siehe unten bei Tracker (z.B. Cookies) <br/><br/>",
+                "legal basis": "Rechtsgrundlage: Einwilligung gem. Art. 6 Abs. 1 lit. a DSGVO",
+                "objection rights": "Widerrufsrecht: Ja, gem. Art. 7 Abs. 3 DSGVO",
+                "consequences": "Konsequenzen: Die Nichtabgabe bzw. der Widerruf der Einwilligung hat keinerlei negative Konsequenzen. Weder Risiken noch Potenziale treten auf.",
+                "subject rights": "Betroffenenrechte: Berechtigung und Löschung (insb.)",
+                "transfer": "Transfer außerhalb EU: Nein<br/><br/>",
+                "contact": "Name und Kontaktdaten des Website-Betreibers: Prof. Dr. Ma von Grafenstein, Bundesallee 1-12 10719 Berlin, m.von-grafenstein@udk-berlin.de<br/><br/>Sie können jederZeit bei der zuständigen Datenschutzbehörde eine Beschwerde gegen diese Datenverarbeitung einlegen.",
+                "image-expand": "purpose-personalization-website-expanded.svg",
+                "services": [
+                    {
+                        "id": "cb-currency",
+                        "name": "cb-currency"
+                    },
+                    {
+                        "id": "cb-main-pricing-currency",
+                        "name": "cb-main-pricing-currency"
+                    },
+                    {
+                        "id": "cb-resellers-per-page",
+                        "name": "cb-resellers-per-page"
+                    },
+                    {
+                        "id": "cookie-consent-bulk-setting",
+                        "name": "CookieConsentBulkSetting-#"
+                    },
+                    {
+                        "id": "master-popup",
+                        "name": "MasterPopup"
+                    },
+                    {
+                        "id": "zd-settings",
+                        "name": "ZD-settings [x2]"
+                    },
+                    {
+                        "id": "zd-store-x2",
+                        "name": "ZD-store [x2]"
+                    },
+                    {
+                        "id": "zd-store-x4",
+                        "name": "ZD-store [x4]"
+                    }
+                ],
+                "pro": [
+                    {
+                        "id": "pro-content",
+                        "text": "(Für mich) relevantere Inhalte",
+                        "icon": "pro-relevante-inhalte.svg",
+                        "dots_num": 3,
+                        "additional_info": false,
+                        "text_expanded": "Hier steht der erweiterte Text!"
+                    },
+                    {
+                        "id": "pro-time-saving",
+                        "text": "Zeitersparnis",
+                        "icon": "pro-zeitersparnis.svg",
+                        "dots_num": 3,
+                        "additional_info": false,
+                        "text_expanded": "Hier steht der erweiterte Text!"
+                    },
+                    {
+                        "id": "pro-user-experience",
+                        "text": "Bessere Nutzungserfahrung",
+                        "icon": "pro-nutzungserfahrung.svg",
+                        "dots_num": 2,
+                        "additional_info": false,
+                        "text_expanded": "Hier steht der erweiterte Text!"
+                    }
+                ],
+                "contra": [
+                    {
+                        "id": "contra-privacy",
+                        "text": "Einblick in mein Privatleben",
+                        "icon": "contra-privatleben.svg",
+                        "dots_num": 3,
+                        "additional_info": false,
+                        "text_expanded": "Hier steht der erweiterte Text!"
+                    },
+                    {
+                        "id": "contra-decisions",
+                        "text": "Beeinflussung meiner Entscheidungen",
+                        "icon": "contra-entscheidungen.svg",
+                        "dots_num": 3,
+                        "additional_info": false,
+                        "text_expanded": "Hier steht der erweiterte Text!"
+                    },
+                    {
+                        "id": "contra-unequal",
+                        "text": "Ungleichbehandlung",
+                        "icon": "contra-ungleichbehandlung.svg",
+                        "dots_num": 2,
+                        "additional_info": false,
+                        "text_expanded": "Hier steht der erweiterte Text!"
+                    },
+                    {
+                        "id": "contra-finances",
+                        "text": "Finanzielle Einbußen",
+                        "icon": "contra-finanzielle-einbussen.svg",
+                        "dots_num": 2,
+                        "additional_info": false,
+                        "text_expanded": "Hier steht der erweiterte Text!"
+                    }
+                ]
+            },
+            { 
+                "id": "personalization-advertisement",
+                "toggle": true,
+                "title": "Personalisierung von Online-Werbung",
+                "text": "Die Website verarbeitet gemeinsam mit Partnern in einem Werbenetzwerk deine Daten, um Online-Werbung an deine Interessen anzupassen. Hierfür erstellt das Werbenetzwerk ein Profil über deine (mutmaßlichen) Interessen, indem es für die Dauer von 2 Jahren Cookies folgender Eigentümer in deinem Browser speichert und darüber deine Nutzung dieser Website analysiert.",
+                "risks": "Risiken: Eingriff in die Privatsphäre (sehr stark), Beeinflussung der Kaufentscheidung (mittel), Ungleichbehandlung (leicht), Materielle Nachteile (sehr leicht)",
+                "data": "Daten: Marketing-Cookie, Nutzungsverhalten u.ä.",
+                "duration": "Dauer: 2 Jahre",
+                "profiling": "Profiling: Profilbildung über deine (mutmaßlichen) Interessen aufgrund deines Nutzungsverhaltens auf dieser Website",
+                "recipient": "Cookie-Eigentümer/Datenempfänger: Website-Betreiber, und siehe unten bei Tracker (z.B. Cookies) <br/><br/>",
+                "legal basis": "Rechtsgrundlage: Einwilligung gem. Art. 6 Abs. 1 lit. a DSGVO",
+                "objection rights": "Widerrufsrecht: Ja, gem. Art. 7 Abs. 3 DSGVO",
+                "consequences": "Konsequenzen: Die Nichtabgabe bzw. der Widerruf der Einwilligung hat keinerlei negative Konsequenzen. Weder Risiken noch Potenziale treten auf.",
+                "subject rights": "Betroffenenrechte: Berichtigung und Löschung (insb.)",
+                "transfer": "Transfer außerhalb EU: Ja (USA)<br/><br/>",
+                "contact": "Name und Kontaktdaten des Website-Betreibers: Prof. Dr. Ma von Grafenstein, Bundesallee 1-12 10719 Berlin, m.von-grafenstein@udk-berlin.de<br/><br/>Sie können jederZeit bei der zuständigen Datenschutzbehörde eine Beschwerde gegen diese Datenverarbeitung einlegen.",
+                "image-expand": "purpose-advertisement-expanded.svg",
+                "services": [
+                    {
+                        "id": "gcl-au",
+                        "name": "_gcl_au"
+                    },
+                    {
+                        "id": "ide",
+                        "name": "IDE"
+                    },
+                    {
+                        "id": "pagead-landing",
+                        "name": "pagead/landing [x2]"
+                    },
+                    {
+                        "id": "test-cookie",
+                        "name": "test_cookie"
+                    },
+                    {
+                        "id": "ads-ga-audiences",
+                        "name": "ads/ga-audiences"
+                    },
+                    {
+                        "id": "gidx4",
+                        "name": "_gid [x4]"
+                    },
+                    {
+                        "id": "clsk",
+                        "name": "_clsk"
+                    },
+                    {
+                        "id": "gidx2",
+                        "name": "_gid [x2]"
+                    }
+                ],
+                "pro": [
+                    {
+                        "id": "pro-advertisment",
+                        "text": "(Für mich) relevantere Werbung",
+                        "icon": "pro-relevante-werbung.svg",
+                        "dots_num": 3,
+                        "additional_info": false,
+                        "text_expanded": "Hier steht der erweiterte Text!"
+                    },
+                    {
+                        "id": "pro-finances",
+                        "text": "Finanzielle Vorteile",
+                        "icon": "pro-finanzielle-vorteile.svg",
+                        "dots_num": 2,
+                        "additional_info": false,
+                        "text_expanded": "Hier steht der erweiterte Text!"
+                    }
+                ],
+                "contra": [
+                    {
+                        "id": "contra-privacy",
+                        "text": "Einblick in mein Privatleben",
+                        "icon": "contra-privatleben.svg",
+                        "dots_num": 3,
+                        "additional_info": false,
+                        "text_expanded": "Hier steht der erweiterte Text!"
+                    },
+                    {
+                        "id": "contra-decisions",
+                        "text": "Beeinflussung meiner Entscheidungen",
+                        "icon": "contra-entscheidungen.svg",
+                        "dots_num": 3,
+                        "additional_info": false,
+                        "text_expanded": "Hier steht der erweiterte Text!"
+                    },
+                    {
+                        "id": "contra-unequal",
+                        "text": "Ungleichbehandlung",
+                        "icon": "contra-ungleichbehandlung.svg",
+                        "dots_num": 2,
+                        "additional_info": false,
+                        "text_expanded": "Hier steht der erweiterte Text!"
+                    },
+                    {
+                        "id": "contra-finances",
+                        "text": "Finanzielle Einbußen",
+                        "icon": "contra-finanzielle-einbussen.svg",
+                        "dots_num": 2,
+                        "additional_info": false,
+                        "text_expanded": "Hier steht der erweiterte Text!"
+                    }
+                ]
+            }
+        ]
+    }
+}

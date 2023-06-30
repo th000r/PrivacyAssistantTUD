@@ -1,0 +1,32 @@
+Allgemein:
+Platzhalter (<...>) mit echtem Wert ersetzen
+
+1. Link zur Website im SoSciSurvey Fragebogen anpassen 
+	- <Wert> mit den jeweiligen Werten ersetzen
+	- Link: <URL>?=ct=<case_token>?proj=<projektname>
+		- URL: URL zum Server
+		- ct: Case Token aus SoSciSurvey (um Fragebogen zuzuordnen)
+		- proj: Name des SoSciSurvey Projekts
+	
+2. Variablen auslesen (listener setzen) und in localStorage speichern
+	- für Cookiebanner in record_cb.js
+	- für Einwilligungsassistent in record_ea.js
+	
+	
+3. Variablen aus localStorage auslesen die aufgezeichnet werden sollen
+	- in api.js
+	- Variablen können dann in SoSciSurvey ausgelesen und gespeichert werden
+	
+
+
+4. Variablen die gespeichert werden (in localStorage):
+	4.1. Einwilligungsassistent
+		- "ea-user-preferences": Anpassung der Website (z.B. Sprache) toggle button value
+		- "ea-statistics-improvement": Statistiken zur Verbesserung der Website toggle button value
+		- "ea-personalization-website": Personalisierung der Website toggle button value
+		- "ea-personalization-advertisement": Personalisierung von Online-Werbung toggle button value
+		
+	4.2. Cookie Banner
+		- "timePassedcb": Zeit auf Website (insgesamt)
+
+	
