@@ -3,7 +3,7 @@ Platzhalter (<...>) mit echtem Wert ersetzen
 
 1. Link zur Website im SoSciSurvey Fragebogen anpassen 
 	- <Wert> mit den jeweiligen Werten ersetzen
-	- Link: <URL>?=ct=<case_token>?proj=<projektname>
+	- Link: <URL>/assistant.html?=ct=<case_token>?proj=<projektname>
 		- URL: URL zum Server
 		- ct: Case Token aus SoSciSurvey (um Fragebogen zuzuordnen)
 		- proj: Name des SoSciSurvey Projekts
@@ -15,6 +15,7 @@ Platzhalter (<...>) mit echtem Wert ersetzen
 	
 3. Variablen aus localStorage auslesen die aufgezeichnet werden sollen
 	- in api.js
+	- Variablen werden per POST an SoSciSurvey übertragen
 	- Variablen können dann in SoSciSurvey ausgelesen und gespeichert werden
 	
 

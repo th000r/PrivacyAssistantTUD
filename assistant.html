@@ -78,8 +78,12 @@
         const queryString = window.location.search;
         const urlParams = new URLSearchParams(queryString);
 
-        localStorage.setItem("ct", urlParams.get('ct'));
-        localStorage.setItem("project", urlParams.get('proj'));
+        if (localStorage.getItem("ct") === null) {
+          localStorage.setItem("ct", urlParams.get('ct'));
+        }
+        if (localStorage.getItem("project") === null) {
+          localStorage.setItem("project", urlParams.get('proj'));
+        }
 
         // register listener
         // send data back to soscisurvery if time is up
